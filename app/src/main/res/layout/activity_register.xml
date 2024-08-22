@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="20dp"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registration"
+        android:layout_marginTop="100dp"
+        android:textSize="40dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:padding="10dp">
+
+    </TextView>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/RgiEmail"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColorHint="@color/black"
+        android:hint="Enter Email :"
+        android:drawableLeft="@drawable/baseline_email_24"
+        android:drawablePadding="10dp"
+        android:textColor="@color/black"
+        android:textSize="15dp">
+
+    </androidx.appcompat.widget.AppCompatEditText>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/RgiPass"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:hint="Enter Password :"
+        android:drawableLeft="@drawable/baseline_lock_24"
+        android:drawablePadding="10dp"
+        android:inputType="textPassword"
+        android:textSize="15dp">
+
+    </androidx.appcompat.widget.AppCompatEditText>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/RgiConfPass"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:inputType="textPassword"
+        android:textColorHint="@color/black"
+        android:hint="Enter Confirm Password :"
+        android:drawableLeft="@drawable/baseline_lock_24"
+        android:drawablePadding="10dp"
+        android:textSize="15dp">
+
+    </androidx.appcompat.widget.AppCompatEditText>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnRegi"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/blue"
+        android:text="Signup"
+        android:textColor="@color/white">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <TextView
+        android:id="@+id/Regitext"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Already have an account ?/Login"
+        android:gravity="right"
+        android:textColor="@color/black"
+        android:textSize="15dp">
+
+    </TextView>
+
+</LinearLayout>

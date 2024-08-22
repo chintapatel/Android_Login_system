@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1046882443391",
+    "project_id": "login-register-prac-8215b",
+    "storage_bucket": "login-register-prac-8215b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1046882443391:android:72fc87a32aac48ddbe5f4a",
+        "android_client_info": {
+          "package_name": "com.example.login_register_ask"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQsy5uqnnzCJQyf4_zTKJ5CgVab7r0-pY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
